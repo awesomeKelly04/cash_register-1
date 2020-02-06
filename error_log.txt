@@ -1,0 +1,6 @@
+could not convert string to float: 'ty'
+could not convert string to float: 'jk'
+Tue Feb  4 17:04:53 2020 could not convert string to float: 'er'
+Tue Feb  4 17:04:54 2020 could not convert string to float: 'fg'
+Tue Feb  4 17:04:55 2020 could not convert string to float: 'sd'
+Tue Feb  4 17:04:56 2020 could not convert string to float: 'gh'

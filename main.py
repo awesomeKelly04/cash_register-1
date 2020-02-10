@@ -1,3 +1,4 @@
+import json
 from time import strftime, ctime
 
 def show_logs():
@@ -40,11 +41,19 @@ def save_data(client_name, product_information):
     )
 
 
-def end_program(client_name=None, product_information=None):
-    if product_information is not None:
-        save_data(client_name, product_information)
+def end_program():
+    '''
+    backup data and quit program
+    '''
 
+    # back up data as json
+    with open('cash_register_backup.json', 'w') as f:
+        json.dump(DATA, f)
+
+    # disp;ay all logs
     show_logs()
+
+    # quit program
     exit()
 
 

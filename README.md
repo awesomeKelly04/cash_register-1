@@ -34,3 +34,25 @@ The application at the satged will be developed in python using just functions t
     ...another transaction dictionary
 ]
 ```
+
+## Milestone 2
+The application should be able to collect command line arguments (minimum of 1 and maximum of 4) to search between a range of time and display all the transactions between that time. The command syntax is as follows
+
+`python search.py <start_date> <start_time> <end_date> <end_time>`
+
+The end_date argument is required and the program will search from the beginning up until the end date. The other arguments can be provided in a combination of two to four.
+
+## Milestone 3
+The current source code will be refactored to OOP form. Classes will be created to manage the user, the data and so on
+
+## Milestone 4
+The application will be connected to a MySql Database to store and manage the data collated. A class will also be created to manage operations like insert, search and retrieve.
+
+## Milestone 5
+The user Interface and design will be implement in HTML, CSS and Bootstrap. Pages and Forms will be created to collect and visualize the inputs.
+
+## Milestone 6
+The application will be refactored to make asynchronous calls rather than synchronous form submission and reload. JavaScript and AJAX will be implemented for this. Endpoints (API) will be set up in the backend to handle all the calls using __Flask__ module routes.
+
+## Conclusion
+This is a practice project to develop a sales register (software) to manage transactions.

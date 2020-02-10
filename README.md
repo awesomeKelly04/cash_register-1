@@ -10,27 +10,25 @@ A transaction logging and tracking application. A zero to hero application on bu
 - Asynchronous Calls (AJAX with JAvaScript) and Backend Development with Flask (Python)
 
 ## Milestone 1
-The application at the satged will be developed in python using just functions to collect, validate, store and retrieve input details about the transactions. The choice of data structure is *List of Dictionaries*. The information structure is destribed below
+The application at the satged will be developed in python using just functions to collect, validate, store and retrieve input details about the transactions. The choice of data structure is __*List of Dictionaries*__. The information structure is destribed below
 
-`
-[
-    {
-        "customer_name": "james",
-        "product": [
-            {
-                "product_name": "spoon",
-                "product_quantity": 20.0,
-                "product_price": 12.0
-            },
-            {
-                "product_name": "50",
-                "product_quantity": 5.0,
-                "product_price": 100.0
-            }
-            ...another product detail dictionary
-        ],
-        "time": "10/02/2020 10:57"
-    },
-    ...another transaction dictionary
-]
-`
+>[
+>    {
+>        "customer_name": "james",
+>        "product": [
+>            {
+>                "product_name": "spoon",
+>                "product_quantity": 20.0,
+>                "product_price": 12.0
+>            },
+>            {
+>                "product_name": "50",
+>                "product_quantity": 5.0,
+>                "product_price": 100.0
+>            }
+>            ...another product detail dictionary
+>        ],
+>        "time": "10/02/2020 10:57"
+>    },
+>    ...another transaction dictionary
+>]
